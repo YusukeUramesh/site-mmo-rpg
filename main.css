@@ -16,10 +16,6 @@ h1, h2 {
     font-weight: normal;
 }
 
-h1 {
-    font-size: 30px;
-}
-
 header nav li {
     display: inline;
     margin-left: 120px;
@@ -72,21 +68,21 @@ body {
 
 .p1 {
     padding: 20px;
-    text-size-adjust: 100px;
+
 }
 
 .p2 {
-    margin-left: 570px;
+    margin-left: 50px;
     padding: 20px;
     margin-top: 25px;
-    margin-bottom: 300px;
+    margin-bottom: 500px;
 }
 
 .conteudo-a {
     display: flex;
     align-content: space-between;
     margin: 25px;
-    margin-right: 550px;
+    margin-right: 20px;
 } 
 
 .conteudo-b {
@@ -99,6 +95,13 @@ body {
     background-color: rgba(0, 0, 255, 0.5);
     color: #fcfcfc;
 }
+
+.cdt {
+    margin-bottom: 20px;
+    margin-left: 40%;
+    margin-right: 30%;
+}
+
 
 form input,
 form textarea,
@@ -142,7 +145,6 @@ input:focus, textarea:focus {
     background-color: #404143;
     color: #fcfcfc;
     display: flex;
-
     justify-content: flex-end;
     padding-left: 20px;
     padding-right: 20px;
@@ -157,7 +159,6 @@ input:focus, textarea:focus {
 .social-links li {
     display: inline;
     margin-right: 10px;
-    text-decoration: none;
 }
 
 footer {
